@@ -11,4 +11,5 @@ export default [
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   eslintPluginPrettierRecommended,
+  { ignores: ['build/*.{js,mjs,cjs,ts}', 'node_modules/**/*.{js,mjs,cjs,ts}'] },
 ]
